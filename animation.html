@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+   
+    
+        <style>
+            div{
+                width: 400px;
+                height: 400px;
+                background-color: blue;
+                transition: width 2s, height 4s, transform 5s;
+                transition-delay: 2s;
+                transition-duration: 5s;
+                animation-name: animationName;
+                
+            }
+            @keyframes animationName {
+                from{background-color: aqua;}
+                to{background-color: aquamarine;}
+            }
+            div:hover{
+                width: 800px;
+                height: 1000px;
+                transition-timing-function: width 100px;
+                transform: rotate(90deg);
+               }
+            
+               .div1{
+            
+                transition-timing-function: linear;
+               
+                
+            }
+           
+            .div2{
+                transition-timing-function: ease;
+                
+            }
+           
+            .div3{
+                transition-timing-function: ease-in;
+               
+            }
+            
+            .div4{
+                
+                transition-timing-function: ease-out;
+            }
+          
+           
+                
+            
+           <!-- box{
+                width: 800px;
+                height: 1000px;
+                background-color: aquamarine;
+                transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+                transform: scaleX(140deg);
+            }
+            box:hover{
+                width: 1000px;
+                height: 2000px;
+                transform: rotate(180deg);
+            }
+        -->
+           
+
+        </style>
+         </head>
+   <body>
+    <div>
+
+   
+    <div class="div1">
+
+</div><br>
+
+<div class="div2">
+
+</div><br>
+<div class="div3">
+
+</div><br>
+<div class="div4">
+
+</div><br>
+</div><br>
+   </body>
+</html>

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            div{
+                height: 400px;
+                width: 350px;
+                
+                animation-name: animationName;
+                animation-duration: 10s;
+                animation-delay: 1s;
+            }
+            @keyframes animationName{
+                from {background-color: chocolate;}
+                to {background-color: blueviolet;}
+                
+            }
+            .box{
+                height: 400px;
+                width: 350px;
+                background-color: brown;
+                animation-name: animationNames;
+                animation-duration: 4s;
+              animation-direction: alternate;
+                position: relative;
+                animation-iteration-count: infinite;
+            }
+            @keyframes animationNames{
+                0% {
+                    background-color: aqua;
+                left: 0; top:0;
+                }
+                25% {
+                    background-color: red;
+                    left: 200; top:300;
+                }
+                55% {
+                    background-color: blue;
+                    left: 100; top:200;
+                }
+                100% {
+                    background-color: olive;
+                    left: 500; top:0;
+                }
+
+                
+            }
+          
+        </style>
+    </head>
+    <body>
+        <div>
+
+        </div><br>
+        <div class="box">
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+
+    .shree{
+        color: green;
+            background-color:red;
+            font-size: 30px;
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 20px;
+            border-image-repeat: space;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-right: 10px;
+            border: black;
+            border: dotted blue;
+            border-radius: 20px;
+            margin-left: 100px;
+    }
