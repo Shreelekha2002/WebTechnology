@@ -1,0 +1,13 @@
+.box1{
+    background-color: antiquewhite;
+    transform: scale3d(80deg);
+    transform: rotateX(70deg);
+    width: 50%;
+    height: 50%;
+}
+.box{
+    background-color: aqua;
+    transform: rotateX(70deg);
+    transform: rotateX('angle');
+
+}
